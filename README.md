@@ -49,8 +49,7 @@ A clean and interactive finance dashboard built using React that helps users tra
 
 ```
 ## 📂 Project Structure
-```
-finance-dashboard/
+```finance-dashboard/
 │
 ├── src/
 │ ├── components/
