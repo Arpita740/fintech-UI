@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-
+import RecentActivity from "./components/Insights/RecentActivity";
 import Navbar from "./components/Layout/Navbar";
 import RoleToggle from "./components/RoleToggle/RoleToggle";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -40,6 +40,7 @@ function App() {
   role={role} 
   setTransactions={setTransactions} 
 />
+<RecentActivity transactions={transactions} />
       <Insights transactions={transactions} />
 
       
