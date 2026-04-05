@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fintech-UI/static/css/main.3a4e3c13.css",
-    "main.js": "/fintech-UI/static/js/main.da74ca3c.js",
+    "main.css": "/fintech-UI/static/css/main.beb3f0ee.css",
+    "main.js": "/fintech-UI/static/js/main.b201880d.js",
     "index.html": "/fintech-UI/index.html",
-    "main.3a4e3c13.css.map": "/fintech-UI/static/css/main.3a4e3c13.css.map",
-    "main.da74ca3c.js.map": "/fintech-UI/static/js/main.da74ca3c.js.map"
+    "main.beb3f0ee.css.map": "/fintech-UI/static/css/main.beb3f0ee.css.map",
+    "main.b201880d.js.map": "/fintech-UI/static/js/main.b201880d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a4e3c13.css",
-    "static/js/main.da74ca3c.js"
+    "static/css/main.beb3f0ee.css",
+    "static/js/main.b201880d.js"
   ]
 }
