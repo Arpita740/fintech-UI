@@ -1,0 +1,117 @@
+.transaction-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  border-bottom: 1px solid #444;
+}
+
+.income {
+  color: #22c55e;
+}
+
+.expense {
+  color: #ef4444;
+}
+
+.filter {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.filter input {
+  width: 300px;  /* NOT full width */
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+button {
+  background: #22c55e;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+.add-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.add-form input,
+.add-form select {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.add-form button {
+  background: #22c55e;
+  color: white;
+  padding: 8px 12px;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.filter input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.add-form input,
+.add-form select {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.add-form button {
+  background: #22c55e;
+  color: white;
+}
+
+.transaction-container {
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+}
+
+.income {
+  color: #22c55e;
+}
+
+.expense {
+  color: #ef4444;
+}
