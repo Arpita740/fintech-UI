@@ -3,9 +3,8 @@
 A clean and interactive finance dashboard built using React that helps users track transactions, analyze spending patterns, and manage financial data effectively.
 
 ---
-
 ## 🚀 Live Demo
-👉 (https://arpita740.github.io/fintech-UI/)
+👉 https://arpita740.github.io/fintech-UI/
 
 ---
 
