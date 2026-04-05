@@ -48,8 +48,6 @@ A clean and interactive finance dashboard built using React that helps users tra
 - Chart.js
 
 ---
-
-## 📂 Project Structure
 ---
 finance-dashboard/
 │
