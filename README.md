@@ -15,6 +15,7 @@ A clean and interactive finance dashboard built using React that helps users tra
 ### 📊 Dashboard
 - Displays Total Balance, Income, and Expenses
 - Category-wise spending visualization using Pie Chart
+- 📈 Time-based balance trend using Line Chart
 - Dynamic updates based on transactions
 
 ### 💳 Transactions
@@ -32,6 +33,10 @@ A clean and interactive finance dashboard built using React that helps users tra
 - Shows highest spending category
 - Displays useful financial observations
 
+### 🕒 Recent Activity
+- Shows latest transactions
+- Quick view of recent financial actions
+
 ### 🌙 Dark / Light Mode
 - Toggle between themes
 - Clean UI for both modes
@@ -41,6 +46,11 @@ A clean and interactive finance dashboard built using React that helps users tra
 
 ---
 
+## ✨ Highlights
+- Real-time data updates with React state
+- Role-based UI simulation (Admin vs Viewer)
+- Dynamic chart rendering with auto-generated colors
+- Clean and responsive dashboard layout
 ## 🛠️ Tech Stack
 
 - React (Hooks)
