@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fintech-UI/static/css/main.8fa57901.css",
+    "main.js": "/fintech-UI/static/js/main.a205ffca.js",
+    "index.html": "/fintech-UI/index.html",
+    "main.8fa57901.css.map": "/fintech-UI/static/css/main.8fa57901.css.map",
+    "main.a205ffca.js.map": "/fintech-UI/static/js/main.a205ffca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fa57901.css",
+    "static/js/main.a205ffca.js"
+  ]
+}
