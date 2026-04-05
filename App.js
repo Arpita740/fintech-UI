@@ -8,6 +8,7 @@ import Transactions from "./components/Transactions/Transactions";
 import Insights from "./components/Insights/Insights";
 
 import { transactions as initialData } from "./data/transactions";
+import RecentActivity from "./components/Insights/RecentActivity";
 
 function App() {
   const [role, setRole] = useState("viewer");
@@ -34,12 +35,16 @@ function App() {
 />
       
 
-      <Dashboard transactions={transactions} darkMode={darkMode} />
+      <Dashboard 
+  transactions={transactions} 
+  darkMode={darkMode} 
+/>
      <Transactions 
   transactions={transactions} 
   role={role} 
   setTransactions={setTransactions} 
 />
+<RecentActivity transactions={transactions} />
       <Insights transactions={transactions} />
 
       

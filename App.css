@@ -214,3 +214,20 @@ button {
 button:hover {
   opacity: 0.9;
 }
+.card,
+.chart-container,
+.transaction-container,
+.insights {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
