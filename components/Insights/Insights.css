@@ -4,3 +4,24 @@
   border-radius: 12px;
   background: rgba(0,0,0,0.6);
 }
+.activity {
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.5);
+  margin-top: 20px;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+.app-container.dark .activity {
+  background: rgba(0, 0, 0, 0.6);
+  color: #dfe7e4;
+}
+
+.app-container .activity {
+  background: #f9fafb;
+  color: #111;
+}
