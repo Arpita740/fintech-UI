@@ -1,55 +1,68 @@
-/* DASHBOARD LAYOUT */
+/* 🔥 DASHBOARD LAYOUT */
 .dashboard-layout {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* left 40% right 60% */
-  gap: 20px;
-  align-items: stretch;
+  grid-template-columns: 1fr 1fr; /* equal width */
+  gap: 24px;
   margin-top: 20px;
-  
+  align-items: stretch;
 }
-
-/* LEFT SIDE (cards vertical) */
+.left,
+.right {
+  width: 100%;
+  margin: 0 auto;
+  /*border: 2px solid red; */
+}
 .left {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-/* RIGHT SIDE (chart centered) */
-.right {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  
 }
-
-/* CARDS CONTAINER */
-.cards {
+.right {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+/* LEFT SIDE */
+
+/* 🔥 CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+    width: 95%;
 }
 
 /* CARD STYLE */
 .card {
-  padding: 20px;
-  border-radius: 12px;
+    width: 100%;
+  padding: 18px;
+  border-radius: 14px;
   text-align: center;
+  transition: 0.2s ease;
 }
 
-/* DARK MODE CARDS */
+/* DARK MODE */
 .app-container.dark .card {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255,255,255,0.05);
 }
 
-/* LIGHT MODE CARDS */
-.app-container .card {
-  background: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+/* LIGHT MODE */
+.app-container:not(.dark) .card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 
 /* TEXT */
 .card h4 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .card p {
@@ -71,23 +84,24 @@
   transform: none;
 }
 
-/* CHART CONTAINER */
+/* 🔥 CHART CONTAINER */
 .chart-container {
   width: 100%;
-  height: 420px;  /* 🔥 bigger chart */
-  padding: 20px;
-  border-radius: 12px;
+  height: 380px;
+  padding: 16px;
+  border-radius: 16px;
 }
 
 /* DARK CHART */
 .app-container.dark .chart-container {
-  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(135deg, #020617, #0f172a);
+  border: 1px solid rgba(255,255,255,0.05);
 }
 
-/* LIGHT CHART (FIXED — match cards) */
-.app-container .chart-container {
-  background: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+/* LIGHT CHART */
+.app-container:not(.dark) .chart-container {
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  border: 1px solid #e5e7eb;
 }
 
 /* SPACING */
@@ -95,4 +109,40 @@
 .transaction-container,
 .insights {
   margin-top: 20px;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .dashboard-layout {
+    grid-template-columns: 1fr; /* stack layout */
+  }
+
+  .chart-container {
+    height: 300px;
+  }
+}
+.chart-container {
+  width: 100%;
+  height: 380px;
+  padding: 16px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .chart-container {
+    height: 280px;
+  }
+}
+.chart-container {
+  width: 100%;
+  height: 380px;
+  max-width: 500px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 600px) {
+  .chart-container {
+    height: 260px;
+    max-width: 100%;
+  }
 }

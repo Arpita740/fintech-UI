@@ -1,5 +1,5 @@
 function RecentActivity({ transactions }) {
-  const recent = transactions.slice(-5).reverse();
+  const recent = [...transactions].slice(-3).reverse();
 
   return (
     <div className="activity">

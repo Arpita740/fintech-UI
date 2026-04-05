@@ -1,37 +1,73 @@
+/* 🔥 INSIGHTS CONTAINER */
 .insights {
   margin-top: 20px;
   padding: 20px;
-  border-radius: 12px;
-  background: rgba(0,0,0,0.6);
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.6);
 }
+
+/* LIGHT MODE */
+.app-container:not(.dark) .insights {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+/* 🔥 ACTIVITY BOX */
 .activity {
-  padding: 15px;
-  border-radius: 12px;
-  background: rgba(0,0,0,0.5);
+  padding: 16px;
+  border-radius: 14px;
   margin-top: 20px;
 }
 
+/* DARK */
+.app-container.dark .activity {
+  background: rgba(0, 0, 0, 0.5);
+  color: #e5e7eb;
+}
 
+/* LIGHT */
+.app-container:not(.dark) .activity {
+  background: #f8fafc;
+  color: #111;
+  border: 1px solid #e5e7eb;
+}
+
+/* 🔥 ACTIVITY ITEM */
 .activity-item {
   display: flex;
   justify-content: space-between;
-  margin: 8px 0;
-}
-.app-container.dark .activity {
-  background: rgba(0, 0, 0, 0.6);
-  color: aquamarine;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
-.app-container .activity {
-  background: #f9fafb;
-  color: #50635e;
-}
-.app-container.dark .activity h3{
-  background: rgba(0, 0, 0, 0.01);
-  color: rgb(244, 249, 247);
+/* remove last border */
+.activity-item:last-child {
+  border-bottom: none;
 }
 
-.app-container .activity h3 {
-  
-  color: #2e423a;
+/* TEXT WRAP FIX */
+.activity-item span {
+  font-size: 14px;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+  .insights {
+    padding: 15px;
+  }
+
+  .activity {
+    padding: 12px;
+  }
+
+  .activity-item {
+    flex-direction: column;   /* 🔥 stack vertically */
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .activity-item span {
+    font-size: 13px;
+  }
 }
