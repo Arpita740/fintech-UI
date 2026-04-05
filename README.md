@@ -47,8 +47,9 @@ A clean and interactive finance dashboard built using React that helps users tra
 - CSS (Custom styling)
 - Chart.js
 
----
----
+```
+## 📂 Project Structure
+```
 finance-dashboard/
 │
 ├── src/
@@ -65,7 +66,7 @@ finance-dashboard/
 │
 ├── public/
 ├── package.json
----
+```
 
 ## ⚙️ Setup
 
