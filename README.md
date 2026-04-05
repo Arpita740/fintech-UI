@@ -5,7 +5,7 @@ A clean and interactive finance dashboard built using React that helps users tra
 ---
 
 ## 🚀 Live Demo
-👉 [https://Arpita740.github.io/fintech-UI](https://arpita740.github.io/fintech-UI/)
+👉 [[https://Arpita740.github.io/fintech-UI](https://arpita740.github.io/fintech-UI/)](https://arpita740.github.io/fintech-UI/)
 
 ---
 
